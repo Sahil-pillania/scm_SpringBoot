@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   changeTheme();
 });
 
-// TODO:
+//TODO:
 function changeTheme() {
   //set to web page
 
@@ -26,8 +26,6 @@ function changeTheme() {
       //theme ko dark
       currentTheme = "dark";
     }
-    console.log("changing theme", currentTheme);
-
     changePageTheme(currentTheme, oldTheme);
   });
 }
